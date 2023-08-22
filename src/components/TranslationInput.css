@@ -1,0 +1,57 @@
+.searchField_container {
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 90vw;
+}
+
+h3 {
+    margin-top: 2%;
+}
+
+.searchField {
+    display: flex;
+    margin-top: 2%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+.form {
+    display: flex;
+}
+
+.inputField {
+    width: 65vw;
+    outline: 0px solid transparent;
+    margin-right: 0%;
+    margin-left: -2px;
+    border: 2px solid black;
+    border-bottom-right-radius:20px ;
+    border-top-right-radius:20px ;
+    background-color: #90B77D;
+    
+}
+::placeholder{
+    color: black;
+}
+
+.translateButton {
+    display: flex;
+    min-width: 10vw;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #90B77D;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.translateButton:hover {
+    background-color: #678983;
+
+}
